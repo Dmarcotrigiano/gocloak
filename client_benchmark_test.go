@@ -4,8 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Nerzal/gocloak/v13"
-
+	"github.com/dmarcotrigiano/gocloak/v24"
 	"github.com/stretchr/testify/assert"
 )
 

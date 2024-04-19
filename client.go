@@ -12,13 +12,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/dmarcotrigiano/gocloak/v24/pkg/jwx"
 	"github.com/go-resty/resty/v2"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"github.com/segmentio/ksuid"
-
-	"github.com/Nerzal/gocloak/v13/pkg/jwx"
 )
 
 // GoCloak provides functionalities to talk to Keycloak.
