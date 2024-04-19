@@ -722,7 +722,7 @@ type UserProfileAttribute struct {
 	Permissions *UserProfileAttributePermissions `json:"permissions,omitempty"`
 	Selector    *UserProfileAttributeSelector    `json:"selector,omitempty"`
 	Group       *string                          `json:"group,omitempty"`
-	MultiValued *bool                            `json:"multiValued,omitempty"`
+	MultiValued *bool                            `json:"multivalued,omitempty"`
 }
 
 type UserProfileAttributePermissions struct {
